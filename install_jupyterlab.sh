@@ -25,12 +25,12 @@ install_jupyter_miniconda() {
     source "$install_path/bin/activate"
 
     # Configuring conda-libmamba-solver
-    conda install -n base conda-libmamba-solver
+    conda install -n base conda-libmamba-solver -y
     conda config --set solver libmamba
 
     # Installing Jupyter Lab and Bash kernel
-    conda install -c conda-forge jupyterlab
-    conda install -c conda-forge bash_kernel
+    conda install -c conda-forge jupyterlab -y
+    conda install -c conda-forge bash_kernel -y
 
     echo "Miniconda, Jupyter Lab, and Bash kernel installation complete."
 }
