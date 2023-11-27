@@ -1,0 +1,12 @@
+# snake_config.yaml
+REF_GENOME_URL: "http://downloads.yeastgenome.org/sequence/S288C_reference/genome_releases/S288C_reference_genome_Current_Release.tgz"
+REF_GENOME_ARCHIVE: "S288C_reference_genome_Current_Release.tgz"
+REF_GENOME: "S288C_reference_genome_R64-2-1_20150113.fa"
+FASTQ_R1_URL: "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2527nnn/GSM2527046/suppl/GSM2527046%5FAG1GY%5F128nM%5FSAM%5Foffset0%5F0%5FNeighborhoodMapping%5FR1%5F001.fastq.gz"
+FASTQ_R2_URL: "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2527nnn/GSM2527046/suppl/GSM2527046%5FAG1GY%5F128nM%5FSAM%5Foffset0%5F0%5FNeighborhoodMapping%5FR2%5F001.fastq.gz"
+WORKDIR: "NGS_Workflow"
+REF_GENOME_DIR: "Reference_Genome"
+FASTQ_DIR: "Fastq_Data"
+TRIMMED_DIR: "Trimmed_Data"
+RESULTS_DIR: "Results"
+QC_DIR: "QC"
