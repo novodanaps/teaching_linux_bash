@@ -23,6 +23,7 @@ install_package "vim"
 # Installing Python3 and venv
 # Python3 should come pre-installed in Ubuntu 20.04, but we'll include it just in case.
 install_package "python3"
+install_package "python3-pip"
 install_package "python3-venv"
 
 echo "All essential dependencies are installed."
