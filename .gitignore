@@ -1,6 +1,9 @@
 # Git ignore content for python and bash
 
 jupyter_venv
+*.tex
+.vscode
+test_dir
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
